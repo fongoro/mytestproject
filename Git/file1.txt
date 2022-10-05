@@ -1,0 +1,16 @@
+611  touch file2.txt
+  612  git log
+  613  git add file2.txt
+  614  git status
+  615  git commit -m "second file creation"
+  616  git log
+  617  git branch -M main
+  618  git remote add origin https://github.com/fongoro/mytestproject.git
+  619  git remote -v
+  620  git push -u origin main
+  621  touch lastone.txt
+  622  git status
+  623  git add lastone.txt
+  624  git commit -m "adding new file"
+  625  git log
+  626  git push
