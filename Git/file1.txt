@@ -1,4 +1,5 @@
-611  touch file2.txt
+619  git remote -v
+  611  touch file2.txt
   612  git log
   613  git add file2.txt
   614  git status
@@ -14,3 +15,14 @@
   624  git commit -m "adding new file"
   625  git log
   626  git push
+  627  history
+  628  git config --global user.name "Faith Ongoro"
+  629  git config --global user.email bfongoro@gmail.com
+  630  git log
+  631  git config --global user.name "FaithOngoro"
+  632  git add .
+  633  git commit -m "updating lastone"
+  634  git push (Pushing the code to github)
+  Git branch
+  git checkout (when switching branches)
+  git checkout -b (creating a new branch and switching to it.)
